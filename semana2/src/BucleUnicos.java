@@ -1,30 +1,45 @@
 public class BucleUnicos {
     public static void main(String[] args) {
-        long inicio = System.nanoTime();
+        long[] tiempos = new long[6];
+        int n = 100;  // tamaño del problema
+
         // funcion constante (no hay instrucciones complejas)
-        //int suma = 40_000_0000 + 50_000_000;
-        int n = 2000_000_000;
+        tiempos[0] = System.nanoTime();
+        int suma = 1 + 2;
+        tiempos[0] = System.nanoTime() - tiempos[0];
 
         // lineal
-        //for (int i = 1; i <= n; i++) {}
+        tiempos[1] = System.nanoTime();
+        for (int i = 1; i <= n; i++) {}
+        tiempos[1] = System.nanoTime() - tiempos[1];
 
         // otro lineal
-        //for (int i = 1; i <= n; i+=2) {}
+        tiempos[2] = System.nanoTime();
+        for (int i = 1; i <= n; i+=2) {}
+        tiempos[2] = System.nanoTime() - tiempos[2];
 
         // logaritmico
-        //for (long i = 1; i < n; i*=2) {}
+        tiempos[3] = System.nanoTime();
+        for (long i = 1; i < n; i*=2) {}
+        tiempos[3] = System.nanoTime() - tiempos[3];
 
         // raiz cuadrada
-        //for(int i = 0; i < Math.sqrt(n); i++) {}
+        tiempos[4] = System.nanoTime();
+        for(int i = 0; i < Math.sqrt(n); i++) {}
+        tiempos[4] = System.nanoTime() - tiempos[4];
 
+        tiempos[5] = System.nanoTime();
         for (int i = 0; i < n; i++) {
             if (i == 1) {
                 break;
             }
         }
+        tiempos[5] = System.nanoTime() - tiempos[5];
 
-
-        long fin = System.nanoTime();
-        System.out.printf("Tiempo %d ns", fin-inicio);
+        System.out.printf("Funcion constante %d ns%n", tiempos[0]);
+        System.out.printf("Funcion lineal %d ns%n", tiempos[1]);
+        System.out.printf("Funcion otro lineal %d ns%n", tiempos[2]);
+        System.out.printf("Funcion logaritmico %d ns%n", tiempos[3]);
+        System.out.printf("Funcion raiz cuadrada %d ns%n", tiempos[4]);
     }
 }

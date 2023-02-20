@@ -1,4 +1,4 @@
-public class LinealSearch {
+public class LinearSearch {
     static int iteraciones;
     public static int buscar(int[] a, int valor) {
         iteraciones = 0;
@@ -16,7 +16,7 @@ public class LinealSearch {
                 1, 5, 2, 8, 10, 3, 4, 6
         };
         int valor = 1;
-        int posicion = LinealSearch.buscar(arr, valor);
+        int posicion = LinearSearch.buscar(arr, valor);
         System.out.printf("El valor %d esta en la posicion %d%n", valor, posicion);
         System.out.println(iteraciones);
     }

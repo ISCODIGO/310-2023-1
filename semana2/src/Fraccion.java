@@ -1,8 +1,8 @@
 import java.util.Arrays;
 
 public class Fraccion implements Comparable<Fraccion> {
-    private int denominador;
-    private int numerador;
+    private final int denominador;
+    private final int numerador;
 
     public Fraccion(int numerador, int denominador) {
         this.denominador = denominador;
@@ -10,10 +10,9 @@ public class Fraccion implements Comparable<Fraccion> {
     }
 
     public Fraccion sumar(Fraccion otra) {
-        int d = this.denominador * otra.denominador;
         return new Fraccion(
                 this.numerador * otra.denominador + otra.numerador * this.denominador,
-                d
+                this.denominador * otra.denominador
         );
     }
 
@@ -30,8 +29,7 @@ public class Fraccion implements Comparable<Fraccion> {
         if (v1 == v2) return 0;
         else if (v1 < v2) {
             return -1;
-        }
-        else return 1;
+        } else return 1;
     }
 
     public static void main(String[] args) {
@@ -45,6 +43,6 @@ public class Fraccion implements Comparable<Fraccion> {
 
         Arrays.sort(fraccions);
         System.out.println(Arrays.toString(fraccions));
-        System.out.println(10+"hola");
+        System.out.println(10 + "hola");
     }
 }

@@ -8,7 +8,7 @@ import java.util.*;
  */
 public class MyArrayList<T> implements List<T> {
     int size;                    // keeps track of the number of elements
-    private T[] array;           // stores the elements
+    T[] array;           // stores the elements
     public final int INITIAL_CAPACITY = 3;
 
     /**
@@ -28,12 +28,12 @@ public class MyArrayList<T> implements List<T> {
      */
     @Override
     public boolean add(T element) {
-        if (size == this.array.length) {
-            grow();
+        if (size == this.array.length) {  // el array esta lleno
+            grow();  // O(n)
         }
         this.array[this.size++] = element;
         return true;
-    }
+    } // O(1*)
 
     private void grow() {
         T[] newArray = (T[]) new Object[this.array.length * 2];
@@ -185,6 +185,10 @@ public class MyArrayList<T> implements List<T> {
             throw new IndexOutOfBoundsException();
         }
 
+        if (size < this.array.length / 4) {
+            reduce();
+        }
+
         T element = this.array[index];
 
         for (int i = index; i < size - 1; i++) {
@@ -194,11 +198,19 @@ public class MyArrayList<T> implements List<T> {
         return element;
     }
 
+    private void reduce() {
+        T[] newArray = (T[]) new Object[this.array.length / 2];
+        System.arraycopy(this.array, 0, newArray, 0, newArray.length);
+        // ahora el nuevo arreglo es el original
+        this.array = newArray;
+    }
+
     @Override
     public boolean removeAll(Collection<?> collection) {
+        // collection.size es otro tamaño del problema -> m
         boolean flag = true;
         for (Object obj : collection) {
-            flag &= remove(obj);
+            flag &= remove(obj);  //  O(n), n -> array.length
         }
         return flag;
     }

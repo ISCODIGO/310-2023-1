@@ -1,9 +1,21 @@
 import java.util.LinkedList;
+import java.util.List;
 
 public class BinaryTree<T> {
-    class Node<T> {
+    private static class Node<T> {
+        /**
+         * Dato dentro del nodo
+         */
         T element;
+
+        /**
+         * Referencia hacia la izquierda
+         */
         Node<T> left;
+
+        /**
+         * Referencia hacia la derecha
+         */
         Node<T> right;
 
         public Node(T e) {
@@ -12,53 +24,78 @@ public class BinaryTree<T> {
             right = null;
         }
 
+        public boolean addLeft(Node<T> node) {
+            if (this.left == null) {
+                this.left = node;
+                return true;
+            }
+            return false;
+        }
+
+        /**
+         * Agregar un nodo hijo hacia la derecha.
+         * @param node nodo a insertar
+         * @return devuelve true si logro insertar el nodo.
+         */
+        public boolean addRight(Node<T> node) {
+            if (this.right == null) {
+                this.right = node;
+                return true;
+            }
+            return false;
+        }
+
         @Override
         public String toString() {
             return element.toString();
         }
     }
 
-    // atributos de ArbolBinario
-    private Node root;
+    // atributos de BinaryTree
+    private Node<T> root;
 
-    public BinaryTree(T elemento) {
-        root = new Node(elemento);
+    public BinaryTree() {
+        root = null;
     }
 
     public boolean isEmpty() {
         return root == null;
     }
 
-    public Node getRoot() {
+    public Node<T> root() {
         return root;
     }
 
-    public void preorden(Node n) {
+    /**
+     * Recorrer el arbol binario utilizando preorder
+     * @param n nodo de origen
+     */
+    public void traverse(Node<T> n) {
         if(n != null) {
             System.out.println(n);  // paso 1
-            preorden(n.left);  // paso 2
-            preorden(n.right);  // paso 3
+            traverse(n.left);  // paso 2
+            traverse(n.right);  // paso 3
         }
     }
 
     /**
-     * Inserta un nuevo nodo a partir del parent. Si este es nulo lo crea.
-     * @param parent - nodo padre
-     * @param e - elemento del nuevo nodo
-     * @return - retorna el nuevo nodo
+     * Inserta un nuevo nodo a partir del parent. Si el arbol esta vacio crea
+     * un nuevo root. Sino intenta insertar a la izquierda o finalmente a la
+     * derecha.
+     * @param parent nodo padre
+     * @param e elemento del nuevo nodo
+     * @return retorna el nuevo nodo
      */
-    public Node add(Node parent, T e) {
-        Node newNode = new Node(e);
+    public Node<T> add(Node<T> parent, T e) {
+        boolean isLeft, isRight;
+        Node<T> newNode = new Node<>(e);
 
         // si el arbol esta vacia crea el nodo raiz
         if (isEmpty()) {
             root = newNode;
-        } else if (parent == null) {
-            parent = newNode;
-        } else if (parent.left == null) {
-            parent.left = newNode;
-        } else if (parent.right == null) {
-            parent.right = newNode;
+        } else if (!parent.addLeft(newNode)) {
+            if (!parent.addRight(newNode))
+                return null;  // no se inserto en ningun lado
         }
 
         return newNode;
@@ -66,15 +103,15 @@ public class BinaryTree<T> {
 
     /**
      * Retorna el array de nodos del arbol obtenidos a traves del recorrido preorden
-     * @return - Array de los nodos
+     * @return array de los nodos
      */
     public Object[] toArray() {
-        LinkedList list = new LinkedList();
+        var list = new LinkedList<T>();
         listPreorder(list, root);
         return list.toArray();
     }
 
-    private void listPreorder(LinkedList list, Node n) {
+    private void listPreorder(List<T> list, Node<T> n) {
         if (n != null) {
             list.add(n.element);
             listPreorder(list, n.left);
@@ -84,13 +121,13 @@ public class BinaryTree<T> {
 
     /**
      * Conteo de todos los nodos del arbol de forma recursiva
-     * @return - Cantidad de nodos del arbol
+     * @return cantidad de nodos del arbol
      */
     public int size() {
         return sizeRecursive(root);
     }
 
-    private int sizeRecursive(Node n) {
+    private int sizeRecursive(Node<T> n) {
         if (n == null) return 0;
         return 1 + sizeRecursive(n.left) + sizeRecursive(n.right);
     }
@@ -98,7 +135,7 @@ public class BinaryTree<T> {
     public void print() {
         printRecursive(root);
     }
-    private void printRecursive(Node n) {
+    private void printRecursive(Node<T> n) {
         if (n != null) {
             System.out.printf("%s [%s, %s]%n", n, n.left, n.right);
             printRecursive(n.left);

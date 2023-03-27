@@ -24,6 +24,11 @@ public class BinaryTree<T> {
             right = null;
         }
 
+        /**
+         * Agregar un nodo a la izquierda
+         * @param node nodo a insertar
+         * @return devuelve true si logra insertar el nodo
+         */
         public boolean addLeft(Node<T> node) {
             if (this.left == null) {
                 this.left = node;
@@ -51,17 +56,27 @@ public class BinaryTree<T> {
         }
     }
 
-    // atributos de BinaryTree
+    /**
+     * Nodo raiz del arbol binario
+     */
     private Node<T> root;
 
-    public BinaryTree() {
-        root = null;
+    public BinaryTree(T element) {
+        root = new Node<>(element);
     }
 
+    /**
+     * Determinar si el arbol esta vacio
+     * @return true si no hay elementos
+     */
     public boolean isEmpty() {
         return root == null;
     }
 
+    /**
+     * Retorna el nodo raiz
+     * @return nodo raiz
+     */
     public Node<T> root() {
         return root;
     }
@@ -70,32 +85,33 @@ public class BinaryTree<T> {
      * Recorrer el arbol binario utilizando preorder
      * @param n nodo de origen
      */
-    public void traverse(Node<T> n) {
+    public void preorder(Node<T> n) {
         if(n != null) {
             System.out.println(n);  // paso 1
-            traverse(n.left);  // paso 2
-            traverse(n.right);  // paso 3
+            preorder(n.left);  // paso 2
+            preorder(n.right);  // paso 3
         }
     }
 
     /**
-     * Inserta un nuevo nodo a partir del parent. Si el arbol esta vacio crea
-     * un nuevo root. Sino intenta insertar a la izquierda o finalmente a la
-     * derecha.
-     * @param parent nodo padre
-     * @param e elemento del nuevo nodo
-     * @return retorna el nuevo nodo
+     * Inserta un nuevo nodo a partir del parent. Si el arbol esta vacio crea un nuevo root. Sino intenta insertar a la izquierda o finalmente a la derecha.
+     * @param parent el nodo padre
+     * @param element dato del nuevo nodo
+     * @return el nuevo nodo
+     * @throws Exception en caso de no insertar el nodo
      */
-    public Node<T> add(Node<T> parent, T e) {
-        boolean isLeft, isRight;
-        Node<T> newNode = new Node<>(e);
+    public Node<T> add(Node<T> parent, T element) throws Exception {
+        Node<T> newNode = new Node<>(element);
 
         // si el arbol esta vacia crea el nodo raiz
         if (isEmpty()) {
             root = newNode;
-        } else if (!parent.addLeft(newNode)) {
-            if (!parent.addRight(newNode))
-                return null;  // no se inserto en ningun lado
+        } else if (parent.left == null) {
+            parent.left = newNode;
+        } else if (parent.right == null) {
+            parent.right = newNode;
+        } else {
+            throw new Exception("No pudo insertar el nodo");
         }
 
         return newNode;
@@ -107,15 +123,15 @@ public class BinaryTree<T> {
      */
     public Object[] toArray() {
         var list = new LinkedList<T>();
-        listPreorder(list, root);
+        addListPreorder(list, root);
         return list.toArray();
     }
 
-    private void listPreorder(List<T> list, Node<T> n) {
+    private void addListPreorder(List<T> list, Node<T> n) {
         if (n != null) {
             list.add(n.element);
-            listPreorder(list, n.left);
-            listPreorder(list, n.right);
+            addListPreorder(list, n.left);
+            addListPreorder(list, n.right);
         }
     }
 
@@ -132,14 +148,17 @@ public class BinaryTree<T> {
         return 1 + sizeRecursive(n.left) + sizeRecursive(n.right);
     }
 
+    /**
+     * Impresion de los nodos del arbol binario, incluyendo los hijos de cada nodo.
+     */
     public void print() {
-        printRecursive(root);
+        printPreorder(root);
     }
-    private void printRecursive(Node<T> n) {
+    private void printPreorder(Node<T> n) {
         if (n != null) {
             System.out.printf("%s [%s, %s]%n", n, n.left, n.right);
-            printRecursive(n.left);
-            printRecursive(n.right);
+            printPreorder(n.left);
+            printPreorder(n.right);
         }
     }
 }

@@ -259,4 +259,13 @@ public class MyArrayList<T> implements List<T> {
     public String toString() {
         return Arrays.toString(this.toArray());
     }
-}
+
+        public static void main(String[] args) {
+            // run a few simple tests
+            MyArrayList<Character> mal = new MyArrayList<Character>();
+            mal.add('o');
+            mal.add(0, 'h');
+            mal.add(1, 'l');
+            mal.add(2, 'a');
+        }
+    }

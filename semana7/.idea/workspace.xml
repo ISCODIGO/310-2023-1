@@ -2,69 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e23abec-971d-4031-9bb3-5f643338683a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/310-2023-1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana3/src/Primo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../semana3/src/Primo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana3/src/com/allendowney/thinkdast/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../semana3/src/com/allendowney/thinkdast/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana3/src/com/allendowney/thinkdast/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../semana3/src/com/allendowney/thinkdast/MyArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana4/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../semana4/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana5/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana5/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../semana5/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana5/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana6/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana6/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../semana6/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana6/.idea/uiDesigner.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/BinarySearchTreeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/BinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinaryTree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinaryTreeTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TreeTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allclasses-index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allpackages-index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/copy.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/element-list" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/help-doc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index-files/index-1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index-files/index-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index-files/index-3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index-files/index-4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index-files/index-5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index-files/index-6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index-files/index-7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index-files/index-8.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jquery-ui.overrides.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legal/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legal/ASSEMBLY_EXCEPTION" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legal/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legal/jquery.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legal/jqueryUI.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/member-search-index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-search-index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/overview-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-search-index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/glass.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/script-dir/jquery-3.6.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/script-dir/jquery-ui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/script-dir/jquery-ui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/search-page.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/search.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/search.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tag-search-index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/type-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/BinaryTreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/TreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -86,9 +47,35 @@
     &quot;last_opened_file_path&quot;: &quot;/Users/enrique/PROJECTS/java/310-2023-1/semana7&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration name="BinaryTreeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.BinaryTreeTest">
+    <configuration name="BinarySearchTreeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.BinarySearchTreeTest" />
+      <module name="semana7" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinaryTreeTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinaryTreeTest" />
+      <module name="semana7" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinaryTreeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.BinaryTreeTest" />
+      <module name="semana7" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.TreeTest" />
       <module name="semana7" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,6 +84,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.BinaryTreeTest" />
+        <item itemvalue="Application.BinarySearchTreeTest" />
+        <item itemvalue="Application.TreeTest" />
+        <item itemvalue="Application.BinaryTreeTest (1)" />
       </list>
     </recent_temporary>
   </component>

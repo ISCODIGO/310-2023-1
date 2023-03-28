@@ -1,7 +1,17 @@
+package tree;
+
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Clase para establecer un arbol n-ario
+ * @param <T> tipo generico
+ */
 public class Tree<T> {
+    /**
+     * Clase del nodo
+     * @param <T> tipo generico
+     */
     static class Node<T> {
         T element;
         List<Node<T>> children;  // esto permite usar cualquier implementacion de List
@@ -23,8 +33,12 @@ public class Tree<T> {
 
     private Node<T> root;
 
-    public Tree() {
-        root = null;
+    /**
+     * Devuelva el nodo raiz del arbol.
+     * @return nodo raiz.
+     */
+    public Node<T> root() {
+        return root;
     }
 
     /**
@@ -38,11 +52,11 @@ public class Tree<T> {
     /**
      * Crea un nodo a partir del elemento y lo incluye dentro de los hijos del nodo padre
      * @param parent nodo padre
-     * @param e elemento a partir del cual se crea un nuevo nodo
+     * @param element elemento a partir del cual se crea un nuevo nodo
      * @return el nodo creado
      */
-    public Node<T> add(Node<T> parent, T e) {
-        var newNode = new Node<>(e);
+    public Node<T> add(Node<T> parent, T element) {
+        var newNode = new Node<>(element);
 
         if (isEmpty()) {
             root = newNode;
@@ -66,13 +80,5 @@ public class Tree<T> {
                 traverse(child);
             }
         }
-    }
-
-    /**
-     * Devuelva el nodo raiz del arbol.
-     * @return nodo raiz.
-     */
-    public Node<T> root() {
-        return root;
     }
 }

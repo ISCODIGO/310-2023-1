@@ -2,66 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9b45174-eec8-42ed-a0ba-4a65e71a0103" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/310-2023-1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana3/src/Primo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../semana3/src/Primo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana3/src/com/allendowney/thinkdast/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../semana3/src/com/allendowney/thinkdast/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana3/src/com/allendowney/thinkdast/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../semana3/src/com/allendowney/thinkdast/MyArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana4/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../semana4/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana5/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana5/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana5/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana5/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana5/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana7/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../semana7/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana7/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../semana7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../semana7/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana7/BinaryTree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana7/BinaryTreeTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana7/Tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana7/TreeTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana7/allclasses-index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana7/allpackages-index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana7/copy.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana7/element-list" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana7/help-doc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana7/index-files/index-1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana7/index-files/index-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana7/index-files/index-3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana7/index-files/index-4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana7/index-files/index-5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana7/index-files/index-6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana7/index-files/index-7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana7/index-files/index-8.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana7/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana7/jquery-ui.overrides.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana7/legal/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana7/legal/ASSEMBLY_EXCEPTION" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana7/legal/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana7/legal/jquery.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana7/legal/jqueryUI.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana7/member-search-index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana7/module-search-index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana7/overview-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana7/package-search-index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana7/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana7/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana7/resources/glass.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana7/resources/x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana7/script-dir/jquery-3.6.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana7/script-dir/jquery-ui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana7/script-dir/jquery-ui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana7/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana7/search-page.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana7/search.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana7/search.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana7/src/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../semana7/src/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana7/src/BinaryTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../semana7/src/BinaryTreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana7/stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana7/tag-search-index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../semana7/type-search-index.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,13 +21,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/enrique/PROJECTS/java/310-2023-1/semana6"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/enrique/PROJECTS/java/310-2023-1/semana6&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

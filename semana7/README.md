@@ -4,6 +4,11 @@
 - `add`: se necesita un nodo de origen para situar el nuevo nodo. En caso que todos los espacios esten ocupados no se agrega el nodo.
 - `dsfPreorder`: Muestra el recorrido de un árbol a traves del algoritmo por profundidad preorden (Depth First Traversal).
 - `bsfTraversal`: Recorrido de los nodos de un árbol por anchura (Breadth First Traversal)
+
+#### Queue
+El recorrido por anchura se utiliza una estructura denominada **Queue** el cual es una estructura de tipo FIFO (first-in first-out) que en este caso emplea dos métodos:
+- `add`: permite agregar un elemento al final de la cola.
+- `poll`: remueve el elemento más antiguo (el primero en agregarse).
 ### BinarySearchTree.java
 - `add`: este método permite ordenar los nodos a partir de la raíz. 
   - A la izquierda si el nodo es inferior al que se compara.

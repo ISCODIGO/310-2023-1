@@ -12,7 +12,7 @@ Comenzamos a revisar como varias llamadas de funciones establecen un orden, intu
 Una función que permite obtener la suma de todos los enteros desde 0 hasta N. Bajo la fórmula `S(n) = n + S(n-1)`
 
 ## Pila (Stack)
-Una estuctura donde el último elemento (el más reciente insertado) es el que podemos manipular. Ese elemento se denominado cima (top). 
+Una estuctura donde el último elemento (el más reciente insertado) es el que podemos manipular. Ese elemento se denominado cima (top). Se le denomina LIFO (last-in first-out)
 Las dos operaciones más importantes son:
 - **push**: insertar una nueva cima.
 - **pop**: eliminar la cima actual.

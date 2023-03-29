@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e23abec-971d-4031-9bb3-5f643338683a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/BinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/BinarySearchTreeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semana6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../semana6/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/BinaryTreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/Tree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/TreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

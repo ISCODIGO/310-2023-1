@@ -4,6 +4,7 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 
 /**
  * Clase para generar arboles binarios de busqueda
@@ -169,6 +170,27 @@ public class BinarySearchTree<T extends Comparable<T>> {
             System.out.printf("%s [left: %s, right: %s]%n", n, n.left, n.right);
             printPreorder(n.left);
             printPreorder(n.right);
+        }
+    }
+
+    public void bfsTraversal() {
+        if (root == null) {
+            return;
+        }
+
+        Queue<Node<T>> queue = new LinkedList<>();  // creacion de cola mediante un linkedlist
+        queue.add(root);
+
+        while (!queue.isEmpty()) {
+            Node<T> node = queue.poll();
+            System.out.println(node.element);
+
+            if (node.left != null) {
+                queue.add(node.left);
+            }
+            if (node.right != null) {
+                queue.add(node.right);
+            }
         }
     }
 }

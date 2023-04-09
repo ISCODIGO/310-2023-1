@@ -139,7 +139,7 @@ public class BinaryTree<T> {
             return;
         }
 
-        Queue<Node<T>> queue = new LinkedList<>();
+        Queue<Node<T>> queue = new LinkedList<>();  // creacion de cola mediante un linkedlist
         queue.add(root);
 
         while (!queue.isEmpty()) {

@@ -64,7 +64,7 @@ public class MyLinearMap<K, V> implements Map<K, V> {
 	 */
 	private Entry findEntry(Object target) {
 		for (Entry entry : entries) {
-			if (target.equals(entry.getKey())) {
+q			if (target.equals(entry.getKey())) {
 				return entry;
 			}
 		}

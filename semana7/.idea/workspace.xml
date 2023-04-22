@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ae62805-5e5c-4d29-8081-312d6b98e6cd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/310-2023-1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/BinarySearchTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/BinarySearchTreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semana8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../semana8/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semana8/semana8.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../semana8/semana8.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semana8/src/com/allendowney/thinkdast/MyLinearMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../semana8/src/com/allendowney/thinkdast/MyLinearMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semana8/src/com/allendowney/thinkdast/MyLinearMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../semana8/src/com/allendowney/thinkdast/MyLinearMapTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +40,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/enrique/PROJECTS/java/310-2023-1/semana7",
+    "last_opened_file_path": "C:/Users/USUARIO/IdeaProjects/310-2023-1/semana8",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>

@@ -1,35 +1,30 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 
 public class InsertionSort {
-    static int iteraciones = 0;
-    public static <T extends Comparable<T>> void sorting(List<T> list) {
-        for (int i = 1; i < list.size(); i++) {
-            T currentElement = list.get(i);
-            int j = i - 1;
-            while (j >= 0 && list.get(j).compareTo(currentElement) > 0) {
-                iteraciones++;
-                list.set(j + 1, list.get(j));
-                j--;
+    private static int iteraciones = 0;
+
+    public static void sort(int[] arr) {
+        for (int i = 1; i < arr.length; i++) {
+            int c = i;
+            int candidato = arr[c];
+            for (int j = i - 1; j >= 0; j--) {
+                int previo = arr[j];
+                if (candidato < previo) {
+                    Util.swap(arr, c, j);  // intercambio de elementos
+                    c = j;
+                } else {
+                    break;
+                }
             }
-            iteraciones++;
-            list.set(j + 1, currentElement);
         }
     }
 
-
-
     public static void main(String[] args) {
-        List<Integer> lista = new ArrayList<>();
-        lista.add(6);
-        lista.add(4);
-        lista.add(3);
-        lista.add(2);
-        lista.add(1);
-
-        InsertionSort.sorting(lista);
-        System.out.println(lista);
-        System.out.printf("Para un n=%d hay %d iteraciones", lista.size(), iteraciones);
+        int[] numeros = {4, 3, 10, 2, 1, 7, 5};
+        InsertionSort.sort(numeros);
+        System.out.println(Arrays.toString(numeros));
     }
 }
